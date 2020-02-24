@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "components_page_articles",
+  "info": {
+    "name": "article",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "picture": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
